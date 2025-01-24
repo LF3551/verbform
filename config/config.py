@@ -1,20 +1,20 @@
 import os
 
 # Anki paths
-ANKI_COLLECTION_PATH = "/path/to/anki/collection"
-ANKI_MEDIA_PATH = "/path/to/anki/media/collection"
+ANKI_COLLECTION_PATH = "/Users/alekseialeinikov/Library/Application Support/Anki2/User 1/collection.anki2"
+ANKI_MEDIA_PATH = "/Users/alekseialeinikov/Documents/GERMAN/ANKI_MEDIA"
 
 # Anki configuration
-DECK_NAME = "Deutsch"
+DECK_NAME = "Deutsch_python"
 MODEL_NAME = "Basic"
 
 # Language settings
-LANGUAGE = "en"  # Change this to your desired language (fr, es, en, etc.)
-BASE_URL = "https://www.verbformen.de"
-ALT_BASE_URL = "https://verben.de"
+LANGUAGE = "ru" 
+BASE_URL = "https://www.verbformen.ru"
+ALT_BASE_URL = "https://verben.ru"
 
 # VerbForm URLs
-GITHUB_URL = "https://github.com/kmoragap/verbform"
+GITHUB_URL = "https://github.com/LF3551/verbform"
 WIKI_URL = f"{GITHUB_URL}/wiki"
 ISSUES_URL = f"{GITHUB_URL}/issues"
 

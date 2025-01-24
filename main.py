@@ -94,15 +94,6 @@ def main():
             print(f"{Fore.RED}❌ No information found for the {word_type[:-1]}: {word}{Style.RESET_ALL}")
     
     print("\n")
-    print(f"{Fore.BLUE}📚 Enjoy your language learning journey!{Style.RESET_ALL}")
-    
-    print(f"\n{Fore.CYAN}★ Enjoying VerbForm? Show your support!")
-    print(f"✨ Star us on GitHub: {Fore.WHITE}{config.GITHUB_URL}{Style.RESET_ALL}")
-    print(f"{Fore.CYAN}🐛 Found a bug? Open an issue: {Fore.WHITE}{config.ISSUES_URL}{Style.RESET_ALL}")
-    print(f"{Fore.CYAN}🤝 Want to contribute? PRs welcome at: {Fore.WHITE}{config.GITHUB_URL}/pulls{Style.RESET_ALL}")
-    print("\n")
-    print(f"{Fore.CYAN}🌟 Spread the word! Share VerbForm with your friends!{Style.RESET_ALL}")
-    print("\n")
 
 if __name__ == "__main__":
     main()
